@@ -1,0 +1,63 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    
+
+}
+.topbarWrapper{
+display: flex;
+height: 100%;
+padding: 0px 20px;
+align-items: center;
+justify-content: space-between;
+}
+.topright{
+  align-items: center ;
+  display: flex;
+  justify-self: space-between;
+  margin: 10px ;
+  color: #555;
+  cursor: pointer;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px ;
+    color: darkblue;
+    cursor: pointer;
+}
+.topbarIconContainer {
+    position: relative;
+    margin-right: 10px; /* Make this container the reference for absolute positioning */
+    display: inline-block; /* Ensure it wraps tightly around the icon */
+}
+
+.topIconBadge {
+    width: 15px;
+    height: 15px;
+    position: absolute; /* Position relative to the parent container */
+    top: 5px; /* Adjust the vertical position */
+    right: 0px; /* Adjust the horizontal position */
+    background-color: #ff3b30; /* Notification red */
+    color: white;
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; /* Adjust text size */
+    font-weight: bold; /* Make text more noticeable */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add depth */
+    z-index: 10; /* Ensure it appears above the icon */
+    align-items: center;
+    justify-content: center;
+
+}
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}

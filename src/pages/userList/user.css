@@ -1,0 +1,86 @@
+.userList {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  .createUserButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .createUserButton:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 13px;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button:nth-child(1) {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button:nth-child(2) {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
