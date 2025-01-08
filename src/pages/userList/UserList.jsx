@@ -7,7 +7,7 @@ export default function UserList() {
 
   // Load users from localStorage or default data
   const [users, setUsers] = useState(() => {
-    const storedUsers = localStorage.getItem("users");
+    const storedUsers = localStorage.getItem("users");  //Check localStorage for existing users using localStorage.getItem("users").
     return storedUsers
       ? JSON.parse(storedUsers)
       : [
@@ -16,7 +16,7 @@ export default function UserList() {
         ];
   });
 
-  // Save users to localStorage whenever they change
+  // Save users to localStorage whenever i update
   useEffect(() => {
     localStorage.setItem("users", JSON.stringify(users));
   }, [users]);
